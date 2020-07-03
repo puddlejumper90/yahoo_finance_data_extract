@@ -40,7 +40,7 @@
     TODO:
         May need to store the url
 
-        Gettting industrial PE
+        Getting industrial PE
         http://biz.yahoo.com/p/industries.html
 
         add in here with the yql features?? or inherit from this??
@@ -68,9 +68,9 @@ class YFinanceDataExtr(object):
         ## self.target_stocks use mainly for a few stocks.
         ## it also use when setting the 45 or 50 stocks at a time to url
         self.target_stocks = ['S58.SI','S68.SI'] ##special character need to be converted
-        self.full_stocklist_to_retrieve = [] #full range fo stocks
+        self.full_stocklist_to_retrieve = [] #full range for stocks
         
-        # for difffernt retrieval, based on the dict available to select the file type
+        # for different retrieval, based on the dictionary available to select the file type
         # currently have "watcher", "all" where watcher is the selected stocks to watch.
         self.stock_retrieval_type = 'watcher' 
 
